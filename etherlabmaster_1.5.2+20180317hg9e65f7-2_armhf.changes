@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Wed, 19 Mar 2018 14:17:37 +0100
+Source: etherlabmaster
+Binary: etherlabmaster etherlabmaster-dev
+Architecture: source armhf
+Version: 1.5.2+20180317hg9e65f7-2
+Distribution: lucid
+Urgency: low
+Maintainer: Sascha Ittner <sascha.ittner@modusoft.de>
+Changed-By: Sascha Ittner <sascha.ittner@modusoft.de>
+Description:
+ etherlabmaster - IgH EtherCAT master for Linux
+ etherlabmaster-dev - IgH EtherCAT master for Linux (development files)
+Changes:
+ etherlabmaster (1.5.2+20180317hg9e65f7-2) lucid; urgency=low
+ .
+   * fixed quilt usage
+   * added patch to relax AL state change timeout
+   * do not try to blacklist generic original driver
+Checksums-Sha1:
+ 20e745e7d6080798890a9661d990754c56e5e871 1081 etherlabmaster_1.5.2+20180317hg9e65f7-2.dsc
+ 40b60401b90b8b71dae02c47225137b14d22b930 4272 etherlabmaster_1.5.2+20180317hg9e65f7-2.debian.tar.xz
+ ce3d728432b38deaeb1c6078cfacf05c7eba696d 1890690 etherlabmaster-dbgsym_1.5.2+20180317hg9e65f7-2_armhf.deb
+ 0d5aeaeb764d3a34bba93e3d0bc96bec6911284d 25882 etherlabmaster-dev_1.5.2+20180317hg9e65f7-2_armhf.deb
+ 174ba4c0a061d8a39c62db5991726cacc1b856ae 5922 etherlabmaster_1.5.2+20180317hg9e65f7-2_armhf.buildinfo
+ 2ffde5a50c4a482a14c48c4185c3c8d23f55e5fb 279404 etherlabmaster_1.5.2+20180317hg9e65f7-2_armhf.deb
+Checksums-Sha256:
+ a0084660e9800a64f0a39ab1d2570769eb007fdfc248ec8e5cbce076bde4e6e0 1081 etherlabmaster_1.5.2+20180317hg9e65f7-2.dsc
+ 69829a586cd8e6e6c903f639ff834fdd5aa519e762ce64f26754653b4d898f88 4272 etherlabmaster_1.5.2+20180317hg9e65f7-2.debian.tar.xz
+ a83c282f8e2301e9db5f57f8437a1346e462201d795ba0a37977150570aa77b5 1890690 etherlabmaster-dbgsym_1.5.2+20180317hg9e65f7-2_armhf.deb
+ 3414c45ad3607b6c6685810d1874f51aa1f57dc17bc1915132f418d6d666cbb2 25882 etherlabmaster-dev_1.5.2+20180317hg9e65f7-2_armhf.deb
+ b2ab6ce20f43785b75cec531096004f6404b9ca5882e2848e9c7483b9b91c567 5922 etherlabmaster_1.5.2+20180317hg9e65f7-2_armhf.buildinfo
+ f9bd16bad9150e293ddc5506401470caa7a0bc0bb89a7696a93c425b56e6a2be 279404 etherlabmaster_1.5.2+20180317hg9e65f7-2_armhf.deb
+Files:
+ 40dd3b2fc52e2603f52cf2da71375137 1081 misc extra etherlabmaster_1.5.2+20180317hg9e65f7-2.dsc
+ 16728eb927bc81795c0610d405f92e3c 4272 misc extra etherlabmaster_1.5.2+20180317hg9e65f7-2.debian.tar.xz
+ c9c121b501635ecd91d99018fc5757a8 1890690 debug extra etherlabmaster-dbgsym_1.5.2+20180317hg9e65f7-2_armhf.deb
+ 4aaeb410192df11d4f2e5b02d6103580 25882 misc extra etherlabmaster-dev_1.5.2+20180317hg9e65f7-2_armhf.deb
+ 20659268aae47434fa07b146e52b4cba 5922 misc extra etherlabmaster_1.5.2+20180317hg9e65f7-2_armhf.buildinfo
+ d9086a4d5ed880f65b7c6ce7deaa1b5b 279404 misc extra etherlabmaster_1.5.2+20180317hg9e65f7-2_armhf.deb
